@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Modificar Personas"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="1399" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel_id" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_nombres" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_apell_paterno" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_apell_materno" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_direccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_correo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_num_celular" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_edad" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_dni" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_usuario" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextField_id" max="32767" attributes="0"/>
+                          <Component id="jTextField_nombres" max="32767" attributes="0"/>
+                          <Component id="jTextField_apell_paterno" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextField_apell_materno" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextField_direccion" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextField_correo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextField_num_celular" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextField_edad" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextField_dni" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextField_usuario" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="205" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel_nivel_educacion" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_estado_civil" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_genero" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel_contrasenia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBox_genero" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBox_estado_civil" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBox_nivel_educacion" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPasswordField_contrasenia" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jButton1_Limpiar_Modificar_Personas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="308" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel_titulo" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton_modificar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="199" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_titulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1_Limpiar_Modificar_Personas" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_id" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_id" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_nombres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_nombres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_nivel_educacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox_nivel_educacion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel_apell_paterno" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_apell_paterno" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextField_apell_materno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_apell_materno" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel_direccion" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jTextField_direccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel_estado_civil" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox_estado_civil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel_correo" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_correo" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_num_celular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_num_celular" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_edad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_edad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_genero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox_genero" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_dni" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_dni" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel_usuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_usuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_contrasenia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPasswordField_contrasenia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jButton_modificar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="286" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1_reporte">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="14" rowCount="0">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                <Column editable="true" title="Title 5" type="java.lang.Object"/>
+                <Column editable="true" title="Title 6" type="java.lang.Object"/>
+                <Column editable="true" title="Title 7" type="java.lang.Object"/>
+                <Column editable="true" title="Title 8" type="java.lang.Object"/>
+                <Column editable="true" title="Title 9" type="java.lang.Object"/>
+                <Column editable="true" title="Title 10" type="java.lang.Object"/>
+                <Column editable="true" title="Title 11" type="java.lang.Object"/>
+                <Column editable="true" title="Title 12" type="java.lang.Object"/>
+                <Column editable="true" title="Title 13" type="java.lang.Object"/>
+                <Column editable="true" title="Title 14" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable1_reporteMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel_id">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el ID de la persona a modificar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_id">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton_modificar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modificar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_modificarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_nombres">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese los nuevos nombres:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_nombres">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_apell_paterno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el nuevo apellido paterno:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_apell_paterno">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_apell_materno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el nuevo apellido materno:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_apell_materno">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_direccion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese la nueva direcci&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_direccion">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_correo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el nuevo correo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_correo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_num_celular">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el nuevo numero de celular:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_num_celular">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_edad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese la nueva edad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_edad">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_dni">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el nuevo DNI:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_dni">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_nivel_educacion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccione el nuevo nivel de educaci&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_nivel_educacion">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Inicial"/>
+            <StringItem index="1" value="Primario"/>
+            <StringItem index="2" value="Secundario"/>
+            <StringItem index="3" value="Superior"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_estado_civil">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccione el nuevo estado civil:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_estado_civil">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Soltero"/>
+            <StringItem index="1" value="Casado"/>
+            <StringItem index="2" value="Viudo"/>
+            <StringItem index="3" value="Divorciado"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_genero">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccione el nuevo g&#xe9;nero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_genero">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Masculino"/>
+            <StringItem index="1" value="Femenino"/>
+            <StringItem index="2" value="Prefiero no decirlo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_titulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modificaci&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_usuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el nuevo usuario:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_usuario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_contrasenia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese la nueva contrase&#xf1;a:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="jPasswordField_contrasenia">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1_Limpiar_Modificar_Personas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1_Limpiar_Modificar_PersonasActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
